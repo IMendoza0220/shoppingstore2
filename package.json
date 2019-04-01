@@ -1,0 +1,33 @@
+{
+  "name": "hookazon",
+  "version": "1.0.0",
+  "description": "Web store Using Express,SQL(sequelize)",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node server.js"
+  },
+  "author": "Sally Alwari, Taylor Gomez, Ivan Mendoza, Adrian Morales",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "config.json": "0.0.4",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "mysql2": "^1.6.5",
+    "node": "^11.12.0",
+    "sequelize": "^5.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theeachtra/shoppingStore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theeachtra/shoppingStore/issues"
+  },
+  "homepage": "https://github.com/theeachtra/shoppingStore#readme"
+}
